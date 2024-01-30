@@ -12,8 +12,8 @@ A collection of free 3D-printable OpenSCAD models, also available on [Ultimaker 
 With `openscad` and `make` in our path,
 
 ```zsh
-`% cd path/to/this/repo`
-`% make`
+% cd path/to/this/repo
+% make
 ```
 
 will build all STL files in the same directories as the `.scad` files.
@@ -26,6 +26,6 @@ Then import the STL into your favorite slicer program (e.g., Bambu Studio, Ultim
 
 JimmyMadeThat OpenSCAD and STL files are © 2024 by JimmyMadeThat.
 
-Unless otherwise noted in the `.scad` files, all models are released under the `CC BY-NC-SA 4.0 (Attribution-NonCommercial-ShareAlike 4.0 International)` license.
+Unless otherwise noted in the `.scad` files, all models are released under the **CC BY-NC-SA 4.0 (Attribution-NonCommercial-ShareAlike 4.0 International)** license.
 
 To view a copy of this license, visit http://creativecommons.org/licenses/by-nc-sa/4.0/.
