@@ -40,7 +40,7 @@ Mostly for my notes: real life photos are taken on an iPhone, then run:
 
 ```
 % convert IMG_1234.heic real-life-large.webp
-% magick real-life-large.webp -resize 800x800 real-life.webp
+% magick real-life-large.webp -resize 800x800 real-life-1.webp
 % make real-images
 ```
 
