@@ -1,3 +1,6 @@
 # Vertical Breathe Right Strip Box
 
-A simple box for holding a package of Breathe Right® nasal strips vertically. OpenSCAD file can be customized for different size and number of strips.
+![Real Life Object](./real-life.webp)
+![OpenSCAD Preview](./breathe-right-strip-box.webp)
+
+A simple container, open at the top, which holds approximately one box (26 count) of Breathe Right® Extra Strength nasal strips vertically.
