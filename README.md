@@ -1,6 +1,12 @@
 # JimmyMadeThat OpenSCAD 3D Printing Files
 
-A collection of free 3D-printable OpenSCAD models, also available on [Ultimaker Thingiverse](https://www.thingiverse.com/jimmymadethat/designs) (and all compatible with the Thingiverse customizer).
+A collection of free 3D-printable OpenSCAD models, also available on the following websites:
+
+ * [Ultimaker Thingiverse](https://www.thingiverse.com/jimmymadethat/designs) (and all compatible with the Thingiverse customizer).
+ * [MyMiniFactory](https://www.myminifactory.com/users/JimmyMadeThat)
+ * [Cults](https://cults3d.com/en/users/JimymMadeThat/)
+ * [Pinshape](https://pinshape.com/users/3252144-jimmymadethat)
+ * YouMagine (TODO)
 
 ## Printing
 
@@ -41,6 +47,7 @@ Mostly for my notes: real life photos are taken on an iPhone, then run:
 ```
 % convert IMG_1234.heic real-life-large.webp
 % magick real-life-large.webp -resize 800x800 real-life-1.webp
+% convert real-life-1.webp real-life-1.png
 % make real-images
 ```
 

@@ -2,6 +2,7 @@
 
 SCAD_FILES := $(shell find . -type f -name '*.scad')
 REAL_LIFE_WEBP_FILES := $(shell find . -type f -name 'real-life*.webp')
+REAL_LIFE_PNG_FILES := $(shell find . -type f -name 'real-life*.png')
 
 # Output files
 STL_FILES := $(SCAD_FILES:.scad=.stl)
@@ -33,4 +34,4 @@ clean-models:
 	rm -rf $(STL_FILES)
 
 real-life-images:
-	exiftool -all= -overwrite_original $(REAL_LIFE_WEBP_FILES)
+	exiftool -all= -overwrite_original $(REAL_LIFE_WEBP_FILES) $(REAL_LIFE_PNG_FILES)
